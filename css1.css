@@ -1,0 +1,79 @@
+/*reset default styling of HTML block elements*/
+/**{
+    font: inherit;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+} */
+ul {
+	list-style-type: circle;
+	padding: 0px;
+	margin: 0px;
+}
+li {
+	margin-left: 15px;
+}
+a {
+	color: blue;
+}
+body {
+	background-color: #eeeeee;
+	font-family:"Times New Roman", Times, serif;
+}
+
+p{
+	font-size: 13px;
+}
+div {
+	border-radius: 30px;
+}
+#header{
+	background-color: #DDDDDD;
+	font-size: 35px;
+	font-weight: bold;
+	height: 100%; width: 750px;
+	padding: 20px;
+}
+#nav{
+	background-color: #DDDDDD;
+	float: left;
+	height: 100%; width: 160px;
+	/*border: 1px solid black;*/
+	color: #001de7;
+	font-size: 13px;
+	margin-top: 20px;
+	padding: 15px;
+
+}
+#nav span {
+	color: #9c1e24;
+}
+
+#essays {
+	background-color: #888888;
+	float: left;
+	width: 540px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+#essays li {
+	margin-left: 35px;
+	font-size: 13px;
+	margin-bottom: 10px; 	
+}
+#essays span.required_essay {
+	font-weight: bold;
+}
+#space{
+	clear: both;
+}
+
+#footer {
+	background-color: #DDDDDD;
+	height: 100%; width: 750px;
+	padding: 10px;
+	margin-top: 20px;
+}
